@@ -50,13 +50,19 @@
     	"herdr"
     ];
 
+    taps = [
+      "nikitabobko/tap"
+    ];
+
     casks = [
+      "nikitabobko/tap/aerospace"
       "wezterm"
       "raycast"
       "orbstack"
-      "rectangle"
+      "aerospace"
       "spotify"
       "discord"
+      "tailscale-app"
     ];
   };
 

@@ -4,9 +4,55 @@
     {
       "id": "w8",
       "custom_name": null,
+      "identity_cwd": "/Users/nara/github/Aneeshie/ecommerce",
+      "public_pane_numbers": {
+        "1": 1,
+        "2": 2
+      },
+      "next_public_pane_number": 3,
+      "public_tab_numbers": [
+        1,
+        2
+      ],
+      "next_public_tab_number": 3,
+      "tabs": [
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 1
+          },
+          "panes": {
+            "1": {
+              "cwd": "/Users/nara/github/Aneeshie/ecommerce"
+            }
+          },
+          "zoomed": false,
+          "focused": 1,
+          "root_pane": 1
+        },
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 2
+          },
+          "panes": {
+            "2": {
+              "cwd": "/Users/nara/github/Aneeshie/ecommerce"
+            }
+          },
+          "zoomed": false,
+          "focused": 2,
+          "root_pane": 2
+        }
+      ],
+      "active_tab": 1
+    },
+    {
+      "id": "w9",
+      "custom_name": "remote-server",
       "identity_cwd": "/Users/nara",
       "public_pane_numbers": {
-        "10": 1
+        "3": 1
       },
       "next_public_pane_number": 2,
       "public_tab_numbers": [
@@ -17,16 +63,16 @@
         {
           "custom_name": null,
           "layout": {
-            "Pane": 10
+            "Pane": 3
           },
           "panes": {
-            "10": {
+            "3": {
               "cwd": "/Users/nara"
             }
           },
           "zoomed": false,
-          "focused": 10,
-          "root_pane": 10
+          "focused": 3,
+          "root_pane": 3
         }
       ],
       "active_tab": 0
@@ -34,7 +80,7 @@
   ],
   "active": 0,
   "selected": 0,
-  "sidebar_width": 26,
+  "sidebar_width": 18,
   "sidebar_section_split": 0.5,
   "collapsed_space_keys": []
 }

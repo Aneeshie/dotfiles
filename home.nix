@@ -85,5 +85,14 @@ in
    home.file.".config/herdr".source =
      config.lib.file.mkOutOfStoreSymlink
        "${dotfiles}/home/.config/herdr";
-  
+
+
+   home.file.".config/nvim".source =
+     config.lib.file.mkOutOfStoreSymlink
+       "${dotfiles}/home/.config/nvim";
+
+  home.file.".config/aerospace".source =
+    config.lib.file.mkOutOfStoreSymlink
+      "${dotfiles}/home/.config/aerospace";
+
 }
