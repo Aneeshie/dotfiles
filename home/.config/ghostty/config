@@ -1,0 +1,10 @@
+
+font-family = Iosveka Term Nerd Font
+font-size = 28
+
+theme = Rose Pine Moon
+cursor-style = block
+shell-integration-features = no-cursor
+
+confirm-close-surface = false
+

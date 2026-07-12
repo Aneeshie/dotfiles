@@ -56,13 +56,16 @@
 
     casks = [
       "nikitabobko/tap/aerospace"
-      "wezterm"
+#      "wezterm"
+      "ghostty"
       "raycast"
       "orbstack"
       "aerospace"
       "spotify"
       "discord"
       "tailscale-app"
+      "betterdisplay"
+      "zed"
     ];
   };
 

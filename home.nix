@@ -19,6 +19,7 @@ in
     neovim
     tree-sitter
     nerd-fonts.iosevka-term
+    tmux
   ];
 
   fonts.fontconfig.enable = true;
@@ -76,10 +77,12 @@ in
     };
   };
 
-  # Edit-in-place: the real file stays in the dotfiles repo.
-  home.file.".config/wezterm".source =
-    config.lib.file.mkOutOfStoreSymlink
-      "${dotfiles}/home/.config/wezterm";
+
+  # THIS IS FOR WEZTERM IF U WANT TO USE IT UNCOMMENT
+
+  #home.file.".config/wezterm".source =
+  #  config.lib.file.mkOutOfStoreSymlink
+  #    "${dotfiles}/home/.config/wezterm";
 
 
    home.file.".config/herdr".source =
@@ -95,4 +98,7 @@ in
     config.lib.file.mkOutOfStoreSymlink
       "${dotfiles}/home/.config/aerospace";
 
+  home.file.".config/ghostty".source =
+    config.lib.file.mkOutOfStoreSymlink
+      "${dotfiles}/home/.config/ghostty";
 }

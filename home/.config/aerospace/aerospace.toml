@@ -8,7 +8,9 @@ config-version = 2
 
 # You can use it to add commands that run after AeroSpace startup.
 # Available commands : https://nikitabobko.github.io/AeroSpace/commands
-after-startup-command = []
+after-startup-command = [
+  'exec-and-forget osascript -e "tell application \"Ghostty\" to activate"'
+]
 
 # Start AeroSpace at login
 start-at-login = true
@@ -236,3 +238,7 @@ gaps.outer.right =      0
     alt-shift-j = ['join-with down', 'mode main']
     alt-shift-k = ['join-with up', 'mode main']
     alt-shift-l = ['join-with right', 'mode main']
+
+[[on-window-detected]]
+  if.app-id = "com.mitchellh.ghostty"
+  run = "layout floating"
