@@ -10,21 +10,16 @@ import (
 	"strconv"
 )
 
+// getLocalIP finds the active Wi-Fi / LAN IPv4 address reaching the network
 func getLocalIP() (string, error) {
-	addrs, err := net.InterfaceAddrs()
+	conn, err := net.Dial("udp", "8.8.8.8:80")
 	if err != nil {
-		return "", err
+		return "127.0.0.1", err
 	}
+	defer conn.Close()
 
-	for _, address := range addrs {
-		// Filter out loopback addresses (127.0.0.1)
-		if ipnet, ok := address.(*net.IPNet); ok && !ipnet.IP.IsLoopback() {
-			if ipnet.IP.To4() != nil {
-				return ipnet.IP.String(), nil
-			}
-		}
-	}
-	return "127.0.0.1", nil
+	localAddr := conn.LocalAddr().(*net.UDPAddr)
+	return localAddr.IP.String(), nil
 }
 
 func getFreePort() int {
@@ -36,6 +31,19 @@ func getFreePort() int {
 		}
 	}
 	return 8080
+}
+
+func formatBytes(b int64) string {
+	const unit = 1024
+	if b < unit {
+		return fmt.Sprintf("%d B", b)
+	}
+	div, exp := int64(unit), 0
+	for n := b / unit; n >= unit; n /= unit {
+		div *= unit
+		exp++
+	}
+	return fmt.Sprintf("%.1f %cB", float64(b)/float64(div), "KMGTPE"[exp])
 }
 
 func RunShare(args []string) error {
@@ -68,12 +76,12 @@ func RunShare(args []string) error {
 		shareURL = fmt.Sprintf("http://%s:%d/%s", localIP, port, filepath.Base(absPath))
 	}
 
-	fmt.Println("\033[1;35m [nara share]\033[0m Starting local Wi-Fi file server...")
-	fmt.Printf("\033[1mSharing:\033[0m %s\n", absPath)
+	fmt.Println("\033[1;35m📱 [nara share]\033[0m Starting chunked Wi-Fi file server...")
+	fmt.Printf("\033[1mSharing:\033[0m %s (%s)\n", absPath, formatBytes(info.Size()))
 	fmt.Printf("\033[1mURL:\033[0m     \033[1;36m%s\033[0m\n\n", shareURL)
 
 	fmt.Println("\033[1mScan with your Phone / Tablet camera:\033[0m")
-	qrCmd := exec.Command("nix", "run", "nixpkgs#qrencode", "--", "-t", "UTF8", shareURL)
+	qrCmd := exec.Command("nix", "run", "nixpkgs#qrencode", "--", "-t", "UTF8i", shareURL)
 	qrCmd.Stdout = os.Stdout
 	_ = qrCmd.Run()
 
@@ -87,7 +95,9 @@ func RunShare(args []string) error {
 		dir := filepath.Dir(absPath)
 		fileName := filepath.Base(absPath)
 		http.HandleFunc("/"+fileName, func(w http.ResponseWriter, r *http.Request) {
-			fmt.Printf("\033[32m[+] Device connected!\033[0m Downloading %s...\n", fileName)
+			w.Header().Set("Accept-Ranges", "bytes")
+			w.Header().Set("Content-Disposition", fmt.Sprintf("attachment; filename=\"%s\"", fileName))
+			fmt.Printf("\033[32m[+] Device connected!\033[0m Streaming chunked file %s (%s)...\n", fileName, formatBytes(info.Size()))
 			http.ServeFile(w, r, absPath)
 		})
 		http.Handle("/", http.FileServer(http.Dir(dir)))

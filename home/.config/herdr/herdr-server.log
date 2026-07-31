@@ -1315,3 +1315,5 @@
 2026-07-31T10:42:49.853786Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
 2026-07-31T10:42:54.240263Z  INFO herdr::server::headless: client disconnected client_id=6
 2026-07-31T10:42:54.863541Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T10:52:47.595276Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-31T11:22:47.605023Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"

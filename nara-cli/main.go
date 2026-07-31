@@ -63,6 +63,12 @@ func main() {
 			os.Exit(1)
 		}
 
+	case "upgrade":
+		if err := cmd.RunUpgrade(); err != nil {
+			fmt.Printf("\033[31mError:\033[0m %v\n", err)
+			os.Exit(1)
+		}
+
 		case "audit":
 		if err := cmd.RunAudit(); err != nil {
 			fmt.Printf("\033[31mError:\033[0m %v\n", err)
@@ -90,6 +96,7 @@ func printHelp() {
 	fmt.Println()
 	fmt.Println("AVAILABLE COMMANDS:")
 	fmt.Println("  rebuild, sync  Fix permissions and rebuild Nix-Darwin configuration")
+	fmt.Println("  upgrade        Full system update (nix flake update, brew upgrade, rebuild, clean)")
 	fmt.Println("  doctor         Check system health and environment status")
 	fmt.Println("  new            Scaffold a new project using Nix templates")
 	fmt.Println("  clean          Purge old Nix generations and optimize storage")

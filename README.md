@@ -60,6 +60,7 @@ graph TD
     D --> N[nara stats]
     D --> O[nara audit]
     D --> P[nara share <file>]
+    D --> Q[nara upgrade]
 ```
 
 ---
@@ -73,6 +74,7 @@ graph TD
 | Command | Usage | Description |
 | :--- | :--- | :--- |
 | `rebuild` / `sync` | `nara rebuild` | Automatically fixes `.git` permissions, stages changes, and executes `darwin-rebuild switch`. |
+| `upgrade` | `nara upgrade` | Full system update: updates Nix flake locks, upgrades Homebrew casks, rebuilds, & cleans. |
 | `doctor` | `nara doctor` | Runs diagnostic health checks on `$PATH` binaries, user ID permissions, and environment variables. |
 | `new` | `nara new <app>` | Scaffolds a new project directory using the default Nix Flake template, initializes Git, and enables `direnv`. |
 | `clean` | `nara clean [--all]` | Performs garbage collection on old Nix generations and executes `nix store optimise` to hard-link duplicate files. |
@@ -172,7 +174,8 @@ nara new my-awesome-project
         ├── run.go         # `nara run` ephemeral package runner
         ├── stats.go       # `nara stats` system dashboard
         ├── audit.go       # `nara audit` performance & battery scanner
-        └── share.go       # `nara share` local Wi-Fi file server & QR code generator
+        ├── share.go       # `nara share` local Wi-Fi file server & QR code generator
+        └── upgrade.go     # `nara upgrade` full macOS system update pipeline
 ```
 
 ---
