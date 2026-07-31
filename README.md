@@ -56,6 +56,7 @@ graph TD
     D --> J[nara doctor]
     D --> K[nara new <app>]
     D --> L[nara clean]
+    D --> M[nara run <pkg>]
 ```
 
 ---
@@ -72,6 +73,7 @@ graph TD
 | `doctor` | `nara doctor` | Runs diagnostic health checks on `$PATH` binaries, user ID permissions, and environment variables. |
 | `new` | `nara new <app>` | Scaffolds a new project directory using the default Nix Flake template, initializes Git, and enables `direnv`. |
 | `clean` | `nara clean [--all]` | Performs garbage collection on old Nix generations and executes `nix store optimise` to hard-link duplicate files. |
+| `run` | `nara run <pkg>` | Runs any package from `nixpkgs` ephemerally on-demand without installing it. |
 | `version` | `nara version` | Prints current `nara-cli` release version. |
 
 ### Compiling & Installing `nara-cli`
@@ -160,7 +162,8 @@ nara new my-awesome-project
         ├── rebuild.go     # `nara rebuild` logic
         ├── doctor.go      # `nara doctor` diagnostic suite
         ├── new.go         # `nara new` scaffolding engine
-        └── clean.go       # `nara clean` Nix storage optimizer
+        ├── clean.go       # `nara clean` Nix storage optimizer
+        └── run.go         # `nara run` ephemeral package runner
 ```
 
 ---
