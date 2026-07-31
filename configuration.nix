@@ -3,12 +3,6 @@
 {
   nix.enable = false;
 
-  nix.gc = {
-    automatic = true;
-    interval = { Weekday = 0; Hour = 0; Minute = 0; };
-    options = "--delete-older-than 14d";
-  };
-
   nixpkgs.config.allowUnfree = true;
   nixpkgs.hostPlatform = "aarch64-darwin";
 

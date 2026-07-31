@@ -13,19 +13,41 @@ in
   home.packages = with pkgs; [
     ripgrep
     fd
-    fzf
     jq
     lazygit
     neovim
     tree-sitter
     nerd-fonts.iosevka-term
     tmux
+    bat
   ];
 
   fonts.fontconfig.enable = true;
 
   home.sessionVariables = {
     EDITOR = "nvim";
+    PATH ="$HOME/.local/bin:$PATH";
+  };
+
+  programs.direnv = {
+    enable = true;
+    enableZshIntegration = true;
+    nix-direnv.enable = true;
+  };
+
+  programs.fzf = {
+    enable = true;
+    enableZshIntegration = true;
+  };
+
+  programs.zoxide = {
+    enable = true;
+    enableZshIntegration = true;
+  };
+
+  programs.eza = {
+    enable = true;
+    enableZshIntegration = true;
   };
 
   programs.git = {
@@ -47,7 +69,7 @@ in
 
     initContent = ''
       bindkey '^f' autosuggest-accept
-    '';
+      '';
 
     shellAliases = {
       ".." = "cd ..";
@@ -56,6 +78,9 @@ in
       pull = "git pull";
       n = "nvim";
       m = "git switch main";
+      nzed = "nix develop --command zed .";
+      ls = "eza -la";
+      cat = "bat";
     };
   };
 
@@ -78,27 +103,27 @@ in
   };
 
 
-  # THIS IS FOR WEZTERM IF U WANT TO USE IT UNCOMMENT
+# THIS IS FOR WEZTERM IF U WANT TO USE IT UNCOMMENT
 
-  #home.file.".config/wezterm".source =
-  #  config.lib.file.mkOutOfStoreSymlink
-  #    "${dotfiles}/home/.config/wezterm";
-
-
-   home.file.".config/herdr".source =
-     config.lib.file.mkOutOfStoreSymlink
-       "${dotfiles}/home/.config/herdr";
+#home.file.".config/wezterm".source =
+#  config.lib.file.mkOutOfStoreSymlink
+#    "${dotfiles}/home/.config/wezterm";
 
 
-   home.file.".config/nvim".source =
-     config.lib.file.mkOutOfStoreSymlink
-       "${dotfiles}/home/.config/nvim";
+  home.file.".config/herdr".source =
+    config.lib.file.mkOutOfStoreSymlink
+    "${dotfiles}/home/.config/herdr";
+
+
+  home.file.".config/nvim".source =
+    config.lib.file.mkOutOfStoreSymlink
+    "${dotfiles}/home/.config/nvim";
 
   home.file.".config/aerospace".source =
     config.lib.file.mkOutOfStoreSymlink
-      "${dotfiles}/home/.config/aerospace";
+    "${dotfiles}/home/.config/aerospace";
 
   home.file.".config/ghostty".source =
     config.lib.file.mkOutOfStoreSymlink
-      "${dotfiles}/home/.config/ghostty";
+    "${dotfiles}/home/.config/ghostty";
 }
