@@ -3,8 +3,7 @@
 let
   dotfiles = "${config.home.homeDirectory}/.dotfiles";
 in
-{
-  home.username = "nara";
+{ home.username = "nara";
   home.homeDirectory = "/Users/nara";
   home.stateVersion = "26.05";
 
@@ -87,6 +86,8 @@ in
       nzed = "nix develop --command zed .";
       ls = "eza -la";
       cat = "bat";
+      dots = "cd $HOME/github/Aneeshie/dotfiles";
+      work = "cd $HOME/github/Aneeshie";
     };
   };
 
