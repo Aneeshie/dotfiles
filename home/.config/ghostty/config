@@ -1,10 +1,12 @@
 
-font-family = Iosveka Term Nerd Font
+font-family= IosevkaTerm Nerd Font
 font-size = 28
 
-theme = Rose Pine Moon
+theme = Material Ocean
 cursor-style = block
 shell-integration-features = no-cursor
+
+background-opacity=0.92
 
 confirm-close-surface = false
 

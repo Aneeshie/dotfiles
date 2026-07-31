@@ -50,6 +50,11 @@ in
     enableZshIntegration = true;
   };
 
+  programs.yazi = {
+    enable = true;
+    enableZshIntegration = true;
+  };
+
   programs.git = {
     enable = true;
 

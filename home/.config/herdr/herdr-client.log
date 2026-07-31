@@ -1185,3 +1185,12 @@
 2026-07-09T13:51:00.006137Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
 2026-07-09T13:51:04.668347Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
 2026-07-09T13:51:04.668483Z  WARN herdr::raw_input: flushing lone escape after input timeout; if this follows an alt chord or focus switch it may reach the pane as plain esc bytes=[27]
+2026-07-31T06:22:31.865259Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=47701
+2026-07-31T06:22:31.865513Z  INFO herdr::client: connecting to server path=/Users/nara/.config/herdr/herdr-client.sock
+2026-07-31T06:22:32.114107Z  INFO herdr::client: handshake succeeded version=17 encoding=SemanticFrame
+2026-07-31T07:35:24.795834Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=55194
+2026-07-31T07:35:24.795995Z  INFO herdr::client: connecting to server path=/Users/nara/.config/herdr/herdr-client.sock
+2026-07-31T07:35:24.880458Z  INFO herdr::client: handshake succeeded version=17 encoding=SemanticFrame
+2026-07-31T07:54:14.580160Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=56539
+2026-07-31T07:54:14.580224Z  INFO herdr::client: connecting to server path=/Users/nara/.config/herdr/herdr-client.sock
+2026-07-31T07:54:14.663782Z  INFO herdr::client: handshake succeeded version=17 encoding=SemanticFrame

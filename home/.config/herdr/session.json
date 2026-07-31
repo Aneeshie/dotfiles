@@ -2,76 +2,21 @@
   "version": 3,
   "workspaces": [
     {
-      "id": "w8",
+      "id": "wA",
       "custom_name": null,
-      "identity_cwd": "/Users/nara/github/Aneeshie/ecommerce",
+      "identity_cwd": "/Users/nara/github/Aneeshie/go-playground",
       "public_pane_numbers": {
-        "3": 3,
-        "1": 1,
-        "2": 2
+        "7": 3,
+        "5": 1,
+        "6": 2
       },
-      "next_public_pane_number": 5,
+      "next_public_pane_number": 4,
       "public_tab_numbers": [
         1,
-        2
+        2,
+        3
       ],
       "next_public_tab_number": 4,
-      "tabs": [
-        {
-          "custom_name": null,
-          "layout": {
-            "Pane": 1
-          },
-          "panes": {
-            "1": {
-              "cwd": "/Users/nara/github/Aneeshie/ecommerce"
-            }
-          },
-          "zoomed": false,
-          "focused": 1,
-          "root_pane": 1
-        },
-        {
-          "custom_name": null,
-          "layout": {
-            "Split": {
-              "direction": "Horizontal",
-              "ratio": 0.5,
-              "first": {
-                "Pane": 2
-              },
-              "second": {
-                "Pane": 3
-              }
-            }
-          },
-          "panes": {
-            "2": {
-              "cwd": "/Users/nara/github/Aneeshie/ecommerce"
-            },
-            "3": {
-              "cwd": "/Users/nara/github/Aneeshie/ecommerce"
-            }
-          },
-          "zoomed": false,
-          "focused": 3,
-          "root_pane": 2
-        }
-      ],
-      "active_tab": 0
-    },
-    {
-      "id": "w9",
-      "custom_name": "remote-server",
-      "identity_cwd": "/Users/nara",
-      "public_pane_numbers": {
-        "5": 1
-      },
-      "next_public_pane_number": 2,
-      "public_tab_numbers": [
-        1
-      ],
-      "next_public_tab_number": 2,
       "tabs": [
         {
           "custom_name": null,
@@ -80,15 +25,43 @@
           },
           "panes": {
             "5": {
-              "cwd": "/Users/nara"
+              "cwd": "/Users/nara/github/Aneeshie/go-playground"
             }
           },
           "zoomed": false,
           "focused": 5,
           "root_pane": 5
+        },
+        {
+          "custom_name": null,
+          "layout": {
+            "Pane": 6
+          },
+          "panes": {
+            "6": {
+              "cwd": "/Users/nara/github/Aneeshie/go-playground/concurrency"
+            }
+          },
+          "zoomed": false,
+          "focused": 6,
+          "root_pane": 6
+        },
+        {
+          "custom_name": "dotfiles",
+          "layout": {
+            "Pane": 7
+          },
+          "panes": {
+            "7": {
+              "cwd": "/Users/nara/github/Aneeshie/dotfiles"
+            }
+          },
+          "zoomed": false,
+          "focused": 7,
+          "root_pane": 7
         }
       ],
-      "active_tab": 0
+      "active_tab": 2
     }
   ],
   "active": 0,

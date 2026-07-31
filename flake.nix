@@ -14,6 +14,13 @@
   };
 
   outputs = inputs@{ self, ... }: {
+    templates = {
+      default = {
+        path = ./templates/default;
+        description = "A basic development environment template";
+      };
+    };
+
     darwinConfigurations."mac" = inputs.nix-darwin.lib.darwinSystem {
       modules = [
         ./configuration.nix

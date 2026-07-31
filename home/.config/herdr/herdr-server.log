@@ -1055,3 +1055,253 @@
 2026-07-12T12:39:48.311831Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
 2026-07-12T13:09:48.186957Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
 2026-07-12T13:09:48.271841Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T13:39:48.172138Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T13:39:48.257667Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T14:09:48.216340Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T14:09:48.297435Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T14:50:51.217122Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T14:50:51.488075Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T15:20:51.243298Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T15:20:51.403514Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T15:50:51.230168Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T15:50:51.405547Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T16:20:51.268344Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T16:20:51.369640Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T16:50:51.268499Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T16:50:51.573305Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-12T17:20:51.298355Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-12T17:20:51.456445Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T04:38:27.273036Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T04:38:27.354313Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T05:08:27.272194Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T05:08:27.340142Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T05:38:27.292361Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T05:38:27.366680Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T06:08:27.289535Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T06:08:27.373417Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T06:38:27.295404Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T06:38:27.367081Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T07:08:27.325405Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T07:08:27.393745Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T07:38:27.302567Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T07:38:27.376702Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T08:08:27.320558Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T08:08:27.401031Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T08:38:27.341760Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T08:38:27.609358Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T09:08:27.386503Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T09:08:27.656172Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T09:38:27.420836Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T09:38:27.821098Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T10:08:27.445355Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T10:08:28.087116Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T10:38:27.462524Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T10:38:27.749597Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T11:08:27.473137Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T11:08:27.742560Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T11:38:27.491511Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T11:38:27.777219Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T12:08:27.495606Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T12:08:27.779786Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T12:38:27.499940Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T12:38:27.761826Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-13T20:12:13.952491Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-13T20:12:14.207966Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="maki"
+2026-07-31T06:22:31.816434Z  INFO herdr::platform::macos: raised server file descriptor soft limit previous=256 target=8192
+2026-07-31T06:22:31.817181Z  INFO herdr::api::server: api server listening path=/Users/nara/.config/herdr/herdr.sock
+2026-07-31T06:22:31.818336Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-07-31T06:22:31.821573Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=47703
+2026-07-31T06:22:31.821901Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-07-31T06:22:31.823948Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=47704
+2026-07-31T06:22:31.824085Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-07-31T06:22:31.827295Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=47705
+2026-07-31T06:22:31.828254Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-07-31T06:22:31.830178Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=47706
+2026-07-31T06:22:31.830437Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=2
+2026-07-31T06:22:31.830491Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-07-31T06:22:31.856698Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-31T06:22:31.861313Z  INFO herdr::server::headless: restored session already has workspaces; ignoring startup cwd cwd=/Users/nara
+2026-07-31T06:22:31.861696Z  INFO herdr::server::headless: client protocol socket listening path=/Users/nara/.config/herdr/herdr-client.sock
+2026-07-31T06:22:31.861740Z  INFO herdr::server::headless: herdr server started api_socket=/Users/nara/.config/herdr/herdr.sock client_socket=/Users/nara/.config/herdr/herdr-client.sock
+2026-07-31T06:22:31.862155Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=47702
+2026-07-31T06:22:32.114185Z  INFO herdr::server::headless: client connected client_id=2 cols=143 rows=35 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-31T06:23:00.944358Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-07-31T06:23:02.166802Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t1"
+2026-07-31T06:23:02.801846Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w8" tab_id="w8:t2"
+2026-07-31T06:23:04.026907Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 0, signal: None }"
+2026-07-31T06:23:04.027046Z  INFO herdr::pane: pane session terminated pane=3 pid=47705 signal=Hangup
+2026-07-31T06:23:04.676778Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 0, signal: None }"
+2026-07-31T06:23:04.676933Z  INFO herdr::pane: pane session terminated pane=2 pid=47704 signal=Hangup
+2026-07-31T06:23:08.998976Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w9"
+2026-07-31T06:23:08.999054Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w9" tab_id="w9:t1"
+2026-07-31T06:23:10.611459Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=4 status="ExitStatus { code: 0, signal: None }"
+2026-07-31T06:23:10.611620Z  INFO herdr::pane: pane session terminated pane=4 pid=47706 signal=Hangup
+2026-07-31T06:23:11.524855Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 0, signal: None }"
+2026-07-31T06:23:11.525077Z  INFO herdr::pane: pane session terminated pane=1 pid=47703 signal=Hangup
+2026-07-31T06:23:11.525192Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=5 rows=34 cols=125 scrollback_limit_bytes=10000000
+2026-07-31T06:23:11.529083Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=5 pid=48467
+2026-07-31T06:23:11.529403Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="wA" pane_id=5
+2026-07-31T06:23:11.529429Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="wA"
+2026-07-31T06:23:11.529526Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T06:23:16.542289Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T06:24:37.050515Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=6 rows=34 cols=125 scrollback_limit_bytes=10000000
+2026-07-31T06:24:37.055165Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=6 pid=48918
+2026-07-31T06:24:37.055441Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T06:24:37.977065Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T06:24:38.482537Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T06:24:40.347138Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T06:24:45.355006Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T06:25:01.026668Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-31T06:25:01.426706Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-31T06:25:04.260952Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T06:25:09.264849Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T06:25:22.978918Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T06:25:24.144343Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T06:25:29.149562Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T06:25:33.889022Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T06:25:38.891779Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T06:27:57.266545Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T06:28:02.272454Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T06:28:06.144271Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T06:28:11.150065Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T06:31:49.888557Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T06:31:50.689397Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T06:31:55.695296Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T06:32:09.682303Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-31T06:32:13.693832Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T06:32:15.699533Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T06:32:16.112311Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T06:32:21.114760Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T06:48:32.754024Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T06:48:33.601761Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T06:48:38.607236Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T06:52:31.863191Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-31T06:56:50.994507Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T06:56:56.001239Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T06:56:58.988680Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T06:57:03.994210Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T06:57:12.199327Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T06:57:17.202071Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T06:57:21.827902Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T06:57:26.835215Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T06:57:41.826598Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T06:57:43.815521Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T06:57:48.817897Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T07:06:34.065681Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=7 rows=34 cols=125 scrollback_limit_bytes=10000000
+2026-07-31T07:06:34.071439Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=7 pid=52055
+2026-07-31T07:06:34.072171Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t3"
+2026-07-31T07:06:34.072285Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t3"
+2026-07-31T07:06:39.080026Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T07:07:08.104478Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T07:07:09.365630Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T07:07:10.913500Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T07:07:15.919270Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T07:07:37.792746Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t3"
+2026-07-31T07:07:42.800859Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T07:07:55.034860Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T07:07:57.142477Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t3"
+2026-07-31T07:08:02.146800Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T07:08:08.440946Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T07:08:13.448341Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T07:11:19.622628Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T07:11:24.627663Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T07:11:58.175808Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T07:11:59.605893Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T07:12:00.924041Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T07:12:04.300546Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T07:12:09.303290Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T07:12:10.020208Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T07:12:15.028047Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T07:12:18.992007Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T07:12:19.945003Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T07:12:24.950635Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T07:12:37.408656Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T07:12:42.416866Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T07:12:42.534085Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T07:12:47.538374Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T07:13:55.522590Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T07:13:58.862685Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T07:14:03.866529Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T07:15:35.193985Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T07:15:38.914041Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T07:15:40.783131Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T07:15:41.606002Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T07:15:46.610262Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T07:17:36.276467Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T07:17:40.110063Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T07:17:45.114260Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T07:17:52.988027Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T07:17:54.455250Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T07:17:55.988842Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T07:18:00.994091Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T07:18:09.410193Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T07:18:14.414434Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T07:22:31.867864Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-31T07:34:40.356324Z  INFO herdr::server::headless: client disconnected client_id=2
+2026-07-31T07:35:24.880491Z  INFO herdr::server::headless: client connected client_id=4 cols=174 rows=37 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-31T07:35:26.531598Z  INFO herdr::server::headless: client resize client_id=4 cols=168 rows=35 cell_width_px=0 cell_height_px=0
+2026-07-31T07:35:26.947480Z  INFO herdr::server::headless: client resize client_id=4 cols=163 rows=34 cell_width_px=0 cell_height_px=0
+2026-07-31T07:35:27.154806Z  INFO herdr::server::headless: client resize client_id=4 cols=157 rows=33 cell_width_px=0 cell_height_px=0
+2026-07-31T07:35:43.442308Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t3"
+2026-07-31T07:35:45.452619Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T07:35:50.458837Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T07:38:16.636151Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T07:38:21.639717Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T07:38:31.038631Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T07:38:36.046545Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T07:47:41.133883Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T07:47:42.239387Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T07:47:47.246181Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T07:52:31.876761Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-31T07:54:09.825500Z  INFO herdr::server::headless: client disconnected client_id=4
+2026-07-31T07:54:14.663782Z  INFO herdr::server::headless: client connected client_id=6 cols=174 rows=37 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-31T08:22:31.890102Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-31T08:32:51.969996Z  INFO herdr::server::headless: client resize client_id=6 cols=174 rows=29 cell_width_px=0 cell_height_px=0
+2026-07-31T08:32:52.834503Z  INFO herdr::server::headless: client resize client_id=6 cols=136 rows=29 cell_width_px=0 cell_height_px=0
+2026-07-31T08:33:19.406430Z  INFO herdr::server::headless: client resize client_id=6 cols=174 rows=37 cell_width_px=0 cell_height_px=0
+2026-07-31T08:36:40.100190Z  INFO herdr::server::headless: client resize client_id=6 cols=136 rows=29 cell_width_px=0 cell_height_px=0
+2026-07-31T08:36:53.873316Z  INFO herdr::server::headless: client resize client_id=6 cols=174 rows=37 cell_width_px=0 cell_height_px=0
+2026-07-31T08:52:47.562074Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-31T09:22:47.572834Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-31T09:25:22.294026Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T09:25:27.306346Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T09:25:37.331442Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T09:25:42.339123Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T09:25:44.667355Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T09:25:45.898028Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T09:25:50.906919Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T09:25:51.742499Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T09:25:52.510599Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T09:25:56.182020Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T09:25:59.865298Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T09:26:00.847572Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T09:26:04.575381Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T09:26:05.525432Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T09:26:07.864241Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T09:26:08.241729Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T09:26:13.248502Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T09:26:51.404325Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T09:26:55.487634Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T09:26:58.317190Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T09:27:03.320216Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T09:35:56.669737Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T09:35:57.067282Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T09:36:02.089023Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T09:52:24.361246Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T09:52:24.777029Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T09:52:29.784007Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T09:52:46.838405Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T09:52:47.581935Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-31T09:52:51.843032Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T09:56:57.557711Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T09:56:59.294307Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t3"
+2026-07-31T09:57:04.299243Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T09:59:15.187365Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T09:59:20.195380Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T10:02:13.078068Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-31T10:06:20.444874Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-31T10:08:35.894539Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T10:08:36.172605Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
+2026-07-31T10:08:36.544214Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t3"
+2026-07-31T10:08:41.551031Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T10:12:57.883067Z  INFO herdr::app::actions: copied selection to clipboard
