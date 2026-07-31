@@ -3,6 +3,12 @@
 {
   nix.enable = false;
 
+  nix.gc = {
+    automatic = true;
+    interval = { Weekday = 0; Hour = 0; Minute = 0; };
+    options = "--delete-older-than 14d";
+  };
+
   nixpkgs.config.allowUnfree = true;
   nixpkgs.hostPlatform = "aarch64-darwin";
 
@@ -19,6 +25,7 @@
       InitialKeyRepeat = 15;
       _HIHideMenuBar = true;
       AppleShowAllExtensions = true;
+      NSDocumentSaveNewDocumentsToCloud = false;
     };
 
     dock.autohide = true;
@@ -26,6 +33,8 @@
     finder = {
       FXPreferredViewStyle = "Nlsv";
       CreateDesktop = false;
+      AppleShowAllFiles = true;
+      ShowPathbar = true;
     };
 
     trackpad.Clicking = true;
@@ -60,12 +69,13 @@
       "ghostty"
       "raycast"
       "orbstack"
-      "aerospace"
       "spotify"
+      "aerospace"
       "discord"
       "tailscale-app"
-      "betterdisplay"
+      "visual-studio-code"
       "zed"
+      "bruno"
     ];
   };
 
