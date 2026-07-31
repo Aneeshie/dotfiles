@@ -52,6 +52,12 @@ func main() {
 			os.Exit(1)
 		}
 
+	case "stats":
+		if err := cmd.RunStats(); err != nil {
+			fmt.Printf("\033[31mError:\033[0m %v\n", err)
+			os.Exit(1)
+		}
+
 	case "version", "-v", "--version":
 		fmt.Printf("nara-cli version %s\n", version)
 
@@ -73,6 +79,11 @@ func printHelp() {
 	fmt.Println()
 	fmt.Println("AVAILABLE COMMANDS:")
 	fmt.Println("  rebuild, sync  Fix permissions and rebuild Nix-Darwin configuration")
+	fmt.Println("  doctor         Check system health and environment status")
+	fmt.Println("  new            Scaffold a new project using Nix templates")
+	fmt.Println("  clean          Purge old Nix generations and optimize storage")
+	fmt.Println("  run            Run any nixpkgs package ephemerally")
+	fmt.Println("  stats          Display system & Nix dashboard")
 	fmt.Println("  version        Show CLI version")
 	fmt.Println("  help           Show this help menu")
 }
