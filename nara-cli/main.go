@@ -3,8 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
-
-	"nara-cli/cmd"
+"nara-cli/cmd"
 )
 
 const version = "0.1.0"
@@ -58,6 +57,12 @@ func main() {
 			os.Exit(1)
 		}
 
+	case "share":
+		if err := cmd.RunShare(os.Args[2:]); err != nil {
+			fmt.Printf("\033[31mError:\033[0m %v\n", err)
+			os.Exit(1)
+		}
+
 		case "audit":
 		if err := cmd.RunAudit(); err != nil {
 			fmt.Printf("\033[31mError:\033[0m %v\n", err)
@@ -90,6 +95,8 @@ func printHelp() {
 	fmt.Println("  clean          Purge old Nix generations and optimize storage")
 	fmt.Println("  run            Run any nixpkgs package ephemerally")
 	fmt.Println("  stats          Display system & Nix dashboard")
+	fmt.Println("  audit          Scan battery status, CPU/RAM hogs, and Homebrew services")
+	fmt.Println("  share          Share a file or folder over local Wi-Fi with a QR code")
 	fmt.Println("  version        Show CLI version")
 	fmt.Println("  help           Show this help menu")
 }

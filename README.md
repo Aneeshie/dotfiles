@@ -59,6 +59,7 @@ graph TD
     D --> M[nara run <pkg>]
     D --> N[nara stats]
     D --> O[nara audit]
+    D --> P[nara share <file>]
 ```
 
 ---
@@ -78,6 +79,7 @@ graph TD
 | `run` | `nara run <pkg>` | Runs any package from `nixpkgs` ephemerally on-demand without installing it. |
 | `stats` | `nara stats` | Displays a colorful ASCII system, Nix store size, and Git status dashboard. |
 | `audit` | `nara audit` | Scans macOS battery status, top CPU/RAM hogs, and active Homebrew services. |
+| `share` | `nara share [file]` | Serves a file or directory over local Wi-Fi with an interactive QR code scan. |
 | `version` | `nara version` | Prints current `nara-cli` release version. |
 
 ### Compiling & Installing `nara-cli`
@@ -169,7 +171,8 @@ nara new my-awesome-project
         ├── clean.go       # `nara clean` Nix storage optimizer
         ├── run.go         # `nara run` ephemeral package runner
         ├── stats.go       # `nara stats` system dashboard
-        └── audit.go       # `nara audit` performance & battery scanner
+        ├── audit.go       # `nara audit` performance & battery scanner
+        └── share.go       # `nara share` local Wi-Fi file server & QR code generator
 ```
 
 ---
