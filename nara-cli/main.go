@@ -24,6 +24,12 @@ func main() {
 			os.Exit(1)
 		}
 
+	case "doctor":
+		if err := cmd.RunDoctor(); err != nil {
+			fmt.Printf("\033[31mError:\033[0m %v\n", err)
+			os.Exit(1)
+		}
+
 	case "version", "-v", "--version":
 		fmt.Printf("nara-cli version %s\n", version)
 
