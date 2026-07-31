@@ -29,7 +29,7 @@
 
 ## 🔍 Overview
 
-This repository contains the complete configuration for my personal Apple Silicon Mac environment. Every application, macOS setting, shell utility, and project template is declared immutably using **Nix Flakes**. 
+This repository contains the complete configuration for my personal Apple Silicon Mac environment. Every application, macOS setting, shell utility, and project template is declared immutably using **Nix Flakes**.
 
 ### Key Highlights
 * **Zero Imperative Drift**: Rebuilding the configuration enforces the exact state across system defaults, user packages, and shell aliases.
@@ -45,13 +45,13 @@ graph TD
     A[flake.nix] --> B[nix-darwin]
     A --> C[home-manager]
     A --> D[nara-cli]
-    
+
     B --> E[macOS System Defaults & Keymaps]
     B --> F[nix-homebrew & GUI Casks]
-    
+
     C --> G[Zsh, Starship & Modern CLI Utilities]
     C --> H[Config Symlinks: Neovim, Ghostty, AeroSpace]
-    
+
     D --> I[nara rebuild / sync]
     D --> J[nara doctor]
     D --> K[nara new <app>]

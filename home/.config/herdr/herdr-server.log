@@ -1311,3 +1311,7 @@
 2026-07-31T10:34:24.429603Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t2"
 2026-07-31T10:34:25.560776Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t3"
 2026-07-31T10:34:30.563919Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1
+2026-07-31T10:42:44.793785Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-31T10:42:49.853786Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="wA" tab_id="wA:t1"
+2026-07-31T10:42:54.240263Z  INFO herdr::server::headless: client disconnected client_id=6
+2026-07-31T10:42:54.863541Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/Users/nara/.config/herdr/session.json workspaces=1

@@ -27,6 +27,7 @@ in
   home.sessionVariables = {
     EDITOR = "nvim";
     PATH ="$HOME/.local/bin:$PATH";
+    DIRENV_LOG_FORMAT = "";
   };
 
   programs.direnv = {
