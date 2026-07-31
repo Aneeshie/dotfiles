@@ -79,7 +79,7 @@ graph TD
 | `run` | `nara run <pkg>` | Runs any package from `nixpkgs` ephemerally on-demand without installing it. |
 | `stats` | `nara stats` | Displays a colorful ASCII system, Nix store size, and Git status dashboard. |
 | `audit` | `nara audit` | Scans macOS battery status, top CPU/RAM hogs, and active Homebrew services. |
-| `share` | `nara share [file]` | Serves a file or directory over local Wi-Fi with an interactive QR code scan. |
+| `share` | `nara share [file]` | Serves files/folders over Wi-Fi with chunked HTTP byte-range streaming & terminal QR codes. |
 | `version` | `nara version` | Prints current `nara-cli` release version. |
 
 ### Compiling & Installing `nara-cli`
