@@ -30,6 +30,16 @@ func main() {
 			os.Exit(1)
 		}
 
+	case "new":
+	  projectName := ""
+    if len(os.Args) >= 3 {
+        projectName = os.Args[2]
+    }
+    if err := cmd.RunNew(projectName); err != nil {
+        fmt.Printf("\033[31mError:\033[0m %v\n", err)
+        os.Exit(1)
+    }
+
 	case "version", "-v", "--version":
 		fmt.Printf("nara-cli version %s\n", version)
 
