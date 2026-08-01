@@ -42,25 +42,25 @@ This repository contains the complete configuration for my personal Apple Silico
 
 ```mermaid
 graph TD
-    A[flake.nix] --> B[nix-darwin]
-    A --> C[home-manager]
-    A --> D[nara-cli]
+    A["flake.nix"] --> B["nix-darwin"]
+    A --> C["home-manager"]
+    A --> D["nara-cli"]
 
-    B --> E[macOS System Defaults & Keymaps]
-    B --> F[nix-homebrew & GUI Casks]
+    B --> E["macOS System Defaults & Keymaps"]
+    B --> F["nix-homebrew & GUI Casks"]
 
-    C --> G[Zsh, Starship & Modern CLI Utilities]
-    C --> H[Config Symlinks: Neovim, Ghostty, AeroSpace]
+    C --> G["Zsh, Starship & Modern CLI Utilities"]
+    C --> H["Config Symlinks: Neovim, Ghostty, AeroSpace"]
 
-    D --> I[nara rebuild / sync]
-    D --> J[nara doctor]
-    D --> K[nara new <app>]
-    D --> L[nara clean]
-    D --> M[nara run <pkg>]
-    D --> N[nara stats]
-    D --> O[nara audit]
-    D --> P[nara share <file>]
-    D --> Q[nara upgrade]
+    D --> I["nara rebuild / sync"]
+    D --> J["nara doctor"]
+    D --> K["nara new"]
+    D --> L["nara clean"]
+    D --> M["nara run"]
+    D --> N["nara stats"]
+    D --> O["nara audit"]
+    D --> P["nara share"]
+    D --> Q["nara upgrade"]
 ```
 
 ---
