@@ -33,6 +33,12 @@ in
     enable = true;
     enableZshIntegration = true;
     nix-direnv.enable = true;
+    config = {
+      global = {
+        log_format = "";
+        warn_timeout = "0";
+      };
+    };
   };
 
   programs.fzf = {
@@ -72,9 +78,11 @@ in
     autosuggestion.enable = true;
     syntaxHighlighting.enable = true;
 
-    initContent = ''
+    initExtra = ''
+      export DIRENV_LOG_FORMAT=""
+      export DIRENV_WARN_TIMEOUT="0"
       bindkey '^f' autosuggest-accept
-      '';
+    '';
 
     shellAliases = {
       ".." = "cd ..";

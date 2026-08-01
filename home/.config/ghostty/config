@@ -2,11 +2,12 @@
 font-family= IosevkaTerm Nerd Font
 font-size = 28
 
-theme = Material Ocean
+theme = Gruvbox Dark
 cursor-style = block
 shell-integration-features = no-cursor
 
 background-opacity=0.92
 
 confirm-close-surface = false
+window-padding-x = 8
 

@@ -1,7 +1,9 @@
-{ ... }:
+{ inputs, ... }:
 
 {
   nix.enable = false;
+
+  nix.registry.nixpkgs.flake = inputs.nixpkgs;
 
   nixpkgs.config.allowUnfree = true;
   nixpkgs.hostPlatform = "aarch64-darwin";
