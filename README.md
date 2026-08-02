@@ -148,7 +148,14 @@ nix flake init -t ~/.dotfiles
 
 Or instantly via `nara-cli`:
 ```bash
-nara new my-awesome-project
+# Default boilerplate
+nara new my-project
+
+# Language-specific templates
+nara new my-rust-app rust
+nara new my-go-service go
+nara new my-script python
+nara new my-java-app java
 ```
 
 ---
@@ -162,7 +169,11 @@ nara new my-awesome-project
 ├── flake.nix              # Main Nix Flake definition & exported project templates
 ├── rebuild.sh             # Initial system bootstrap shell script
 ├── templates/             # Flake templates for new workspaces
-│   └── default/           # Default devShell & .envrc template
+│   ├── default/           # Default devShell & .envrc template
+│   ├── rust/              # Rust template (cargo, rustc, clippy, rust-analyzer)
+│   ├── go/                # Go template (go, gopls, gotools, golangci-lint)
+│   ├── python/            # Python 3 template (python3, pip, venv, pyright, black)
+│   └── java/              # Java template (JDK 17, maven, gradle)
 └── nara-cli/              # Custom Go CLI workflow tool
     ├── main.go            # Entry point & subcommand router
     ├── go.mod             # Go module definition

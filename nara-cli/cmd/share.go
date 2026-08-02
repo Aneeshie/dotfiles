@@ -95,10 +95,20 @@ func RunShare(args []string) error {
 		dir := filepath.Dir(absPath)
 		fileName := filepath.Base(absPath)
 		http.HandleFunc("/"+fileName, func(w http.ResponseWriter, r *http.Request) {
-			w.Header().Set("Accept-Ranges", "bytes")
+			file, err := os.Open(absPath)
+			if err != nil {
+				http.Error(w, "File not found", http.StatusNotFound)
+				return
+			}
+			defer file.Close()
+
+			w.Header().Set("Content-Type", "application/octet-stream")
 			w.Header().Set("Content-Disposition", fmt.Sprintf("attachment; filename=\"%s\"", fileName))
-			fmt.Printf("\033[32m[+] Device connected!\033[0m Streaming chunked file %s (%s)...\n", fileName, formatBytes(info.Size()))
-			http.ServeFile(w, r, absPath)
+			w.Header().Set("Content-Length", strconv.FormatInt(info.Size(), 10))
+			w.Header().Set("Accept-Ranges", "bytes")
+
+			fmt.Printf("\033[32m[+] Device connected!\033[0m High-speed streaming %s (%s)...\n", fileName, formatBytes(info.Size()))
+			http.ServeContent(w, r, fileName, info.ModTime(), file)
 		})
 		http.Handle("/", http.FileServer(http.Dir(dir)))
 	}

@@ -30,14 +30,10 @@ func main() {
 		}
 
 	case "new":
-	  projectName := ""
-    if len(os.Args) >= 3 {
-        projectName = os.Args[2]
-    }
-    if err := cmd.RunNew(projectName); err != nil {
-        fmt.Printf("\033[31mError:\033[0m %v\n", err)
-        os.Exit(1)
-    }
+		if err := cmd.RunNew(os.Args[2:]); err != nil {
+			fmt.Printf("\033[31mError:\033[0m %v\n", err)
+			os.Exit(1)
+		}
 
 	case "clean":
 		if err := cmd.RunClean(os.Args[2:]); err != nil {
@@ -98,7 +94,7 @@ func printHelp() {
 	fmt.Println("  rebuild, sync  Fix permissions and rebuild Nix-Darwin configuration")
 	fmt.Println("  upgrade        Full system update (nix flake update, brew upgrade, rebuild, clean)")
 	fmt.Println("  doctor         Check system health and environment status")
-	fmt.Println("  new            Scaffold a new project using Nix templates")
+	fmt.Println("  new            Scaffold a new project using Nix templates (default, rust, go, python, java)")
 	fmt.Println("  clean          Purge old Nix generations and optimize storage")
 	fmt.Println("  run            Run any nixpkgs package ephemerally")
 	fmt.Println("  stats          Display system & Nix dashboard")

@@ -1,4 +1,4 @@
-{ inputs, ... }:
+{ pkgs, inputs, ... }:
 
 {
   nix.enable = false;
@@ -36,6 +36,11 @@
     trackpad.Clicking = true;
   };
 
+  services.sketchybar = {
+    enable = true;
+    package = pkgs.sketchybar;
+  };
+
   nix-homebrew = {
     enable = true;
     user = "nara";
@@ -52,7 +57,7 @@
     };
 
     brews = [
-    	"herdr"
+      "herdr"
     ];
 
     taps = [
