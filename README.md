@@ -96,7 +96,9 @@ go build -o ~/.local/bin/nara main.go
 
 ### Core System & Window Management
 * **Window Manager**: [AeroSpace](https://github.com/nikitabobko/AeroSpace) (Tiling Window Manager for macOS)
+  * *Configured with custom global `Alt` keybindings for instant app launching (`Alt+Enter` Ghostty, `Alt+B` Chrome, etc.)*
 * **Terminal Emulator**: [Ghostty](https://ghostty.org/)
+* **Browser**: Google Chrome / Arc
 * **Launcher**: [Raycast](https://www.raycast.com/)
 * **Container Runtime**: [OrbStack](https://orbstack.dev/)
 

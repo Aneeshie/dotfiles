@@ -12,6 +12,8 @@ after-startup-command = [
   'exec-and-forget osascript -e "tell application \"Ghostty\" to activate"'
 ]
 
+exec-on-workspace-change = []
+
 # Start AeroSpace at login
 start-at-login = true
 
@@ -87,12 +89,12 @@ key-mapping.preset = 'qwerty'
 #                 Monitor pattern is the same as for 'workspace-to-monitor-force-assignment'.
 #                 See:
 #                 https://nikitabobko.github.io/AeroSpace/guide#assign-workspaces-to-monitors
-gaps.inner.horizontal = 0
-gaps.inner.vertical =   0
-gaps.outer.left =       0
-gaps.outer.bottom =     0
-gaps.outer.top =        0
-gaps.outer.right =      0
+gaps.inner.horizontal = 8
+gaps.inner.vertical =   8
+gaps.outer.left =       8
+gaps.outer.bottom =     8
+gaps.outer.top =        8
+gaps.outer.right =      8
 
 # 'main' binding mode declaration
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
@@ -132,7 +134,11 @@ gaps.outer.right =      0
     alt-comma = 'layout accordion horizontal vertical'
 
 
-    alt-enter = 'exec-and-forget open -a WezTerm'
+    # Custom App Launchers
+    alt-enter = 'exec-and-forget open -n -a Ghostty'
+    alt-b = 'exec-and-forget open -a "Arc"'
+    alt-s = 'exec-and-forget open -a Spotify'
+    alt-d = 'exec-and-forget open -a Discord'
     # See: https://nikitabobko.github.io/AeroSpace/commands#focus
     alt-h = 'focus left'
     alt-j = 'focus down'
@@ -160,9 +166,9 @@ gaps.outer.right =      0
     alt-8 = 'workspace 8'
     alt-9 = 'workspace 9'
     alt-a = 'workspace A' # In your config, you can drop workspace bindings that you don't need
-    alt-b = 'workspace B'
+    # alt-b = 'workspace B'
     alt-c = 'workspace C'
-    alt-d = 'workspace D'
+    # alt-d = 'workspace D'
     alt-e = 'workspace E'
     alt-f = 'workspace F'
     alt-g = 'workspace G'
@@ -173,7 +179,7 @@ gaps.outer.right =      0
     alt-p = 'workspace P'
     alt-q = 'workspace Q'
     alt-r = 'workspace R'
-    alt-s = 'workspace S'
+    # alt-s = 'workspace S'
     alt-t = 'workspace T'
     alt-u = 'workspace U'
     alt-v = 'workspace V'

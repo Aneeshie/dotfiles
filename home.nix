@@ -141,8 +141,4 @@ in
   home.file.".config/ghostty".source =
     config.lib.file.mkOutOfStoreSymlink
     "${dotfiles}/home/.config/ghostty";
-
-  home.file.".config/sketchybar".source =
-    config.lib.file.mkOutOfStoreSymlink
-    "${dotfiles}/home/.config/sketchybar";
 }

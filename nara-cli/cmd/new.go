@@ -5,6 +5,7 @@ import (
 	"os"
 	"os/exec"
 	"path/filepath"
+	"strings"
 )
 
 func RunNew(args []string) error {
@@ -44,22 +45,18 @@ func RunNew(args []string) error {
 		}
 	}
 
-	// copy flake.nix
 	fmt.Printf("\033[1;36m[1/4]\033[0m Copying \033[1m%s\033[0m flake.nix template...\n", templateName)
 	if err := copyFile(filepath.Join(templateDir, "flake.nix"), filepath.Join(targetDir, "flake.nix")); err != nil {
 		return fmt.Errorf("failed to copy flake.nix: %w", err)
 	}
 
-	// copy .envrc
 	fmt.Printf("\033[1;36m[2/4]\033[0m Copying .envrc...\n")
 	_ = copyFile(filepath.Join(templateDir, ".envrc"), filepath.Join(targetDir, ".envrc"))
 
-	// Git Init & Add
 	fmt.Printf("\033[1;36m[3/4]\033[0m Initializing Git repository...\n")
 	_ = exec.Command("git", "-C", targetDir, "init").Run()
 	_ = exec.Command("git", "-C", targetDir, "add", ".").Run()
 
-	// Direnv Allow
 	fmt.Printf("\033[1;36m[4/4]\033[0m Enabling direnv...\n")
 	_ = exec.Command("direnv", "allow", targetDir).Run()
 

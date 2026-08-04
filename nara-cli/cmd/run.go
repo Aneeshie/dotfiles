@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 	"os/exec"
+	"strings"
 )
 
 func RunExec(args []string) error {
@@ -14,13 +15,21 @@ func RunExec(args []string) error {
 	pkgName := args[0]
 	extraArgs := args[1:]
 
-	fmt.Printf("\033[1;35m⚡ [nara]\033[0m Running ephemeral package \033[1;36mnixpkgs#%s\033[0m...\n", pkgName)
+	nixTarget := pkgName
+	// If it's not a local path and doesn't already contain a flake reference (#), default to nixpkgs
+	if pkgName != "." && pkgName[0] != '.' && pkgName[0] != '/' && !strings.Contains(pkgName, "#") {
+		nixTarget = fmt.Sprintf("nixpkgs#%s", pkgName)
+		fmt.Printf("\033[1;35m⚡ [nara]\033[0m Running ephemeral package \033[1;36m%s\033[0m...\n", nixTarget)
+	} else {
+		fmt.Printf("\033[1;35m⚡ [nara]\033[0m Running ephemeral package \033[1;36m%s\033[0m...\n", nixTarget)
+	}
 
-	nixTarget := fmt.Sprintf("nixpkgs#%s", pkgName)
 	cmdArgs := []string{"run", nixTarget}
 
 	if len(extraArgs) > 0 {
-		cmdArgs = append(cmdArgs, "--")
+		if extraArgs[0] != "--" {
+			cmdArgs = append(cmdArgs, "--")
+		}
 		cmdArgs = append(cmdArgs, extraArgs...)
 	}
 

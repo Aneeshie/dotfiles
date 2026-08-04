@@ -16,13 +16,13 @@
       devShells = forEachSupportedSystem ({ pkgs }: {
         default = pkgs.mkShell {
           packages = with pkgs; [
-            jdk17
+            jdk21
             maven
             gradle
           ];
 
           shellHook = ''
-            echo "☕ Java (JDK 17) dev environment loaded!"
+            echo "Java (JDK 21) dev environment loaded!"
           '';
         };
       });

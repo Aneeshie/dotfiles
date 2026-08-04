@@ -1,0 +1,10 @@
+# Nix builds
+result
+.direnv/
+
+# macOS
+.DS_Store
+*.swp
+
+# nara-cli build
+nara-cli/nara

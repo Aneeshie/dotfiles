@@ -36,10 +36,6 @@
     trackpad.Clicking = true;
   };
 
-  services.sketchybar = {
-    enable = true;
-    package = pkgs.sketchybar;
-  };
 
   nix-homebrew = {
     enable = true;
@@ -67,6 +63,7 @@
     casks = [
       "nikitabobko/tap/aerospace"
 #      "wezterm"
+      "arc"
       "ghostty"
       "raycast"
       "orbstack"
