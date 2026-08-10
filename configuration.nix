@@ -63,15 +63,15 @@
     casks = [
       "nikitabobko/tap/aerospace"
 #      "wezterm"
-      "arc"
       "ghostty"
+      "cursor"
       "raycast"
-      "orbstack"
+      #"orbstack" THERES AN ISSUE WITH THIS ON HOMEBREW.
       "spotify"
       "aerospace"
       "discord"
       "tailscale-app"
-      "visual-studio-code"
+      #"visual-studio-code"
       "zed"
       "bruno"
     ];

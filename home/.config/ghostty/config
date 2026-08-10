@@ -2,11 +2,11 @@
 font-family= IosevkaTerm Nerd Font
 font-size = 28
 
-theme = Catppuccin Frappe
+theme = Cursor Dark
 cursor-style = block
 shell-integration-features = no-cursor
 
-background-opacity=0.9
+background-opacity=0.78
 
 confirm-close-surface = false
 window-padding-x = 8

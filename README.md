@@ -118,23 +118,55 @@ go build -o ~/.local/bin/nara main.go
 
 ## 🚀 Installation & Bootstrapping
 
-To set up a fresh macOS machine with this configuration:
+Follow these step-by-step instructions to set up a fresh macOS machine with this configuration from scratch:
 
-### 1. Clone Repository
+### 1. Install Xcode Command Line Tools
+Required for `git` and system build utilities. Run in Terminal:
+```bash
+xcode-select --install
+```
+*Follow the on-screen popup to complete installation.*
+
+---
+
+### 2. Install Nix Package Manager
+We recommend the **Determinate Systems Nix Installer**, which automatically configures Nix Flakes and multi-user support:
+```bash
+curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install
+```
+> **Note:** After installation completes, close and reopen your terminal session (or run `. /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh`).
+
+---
+
+### 3. Clone Repository
+Clone this repository to `~/.dotfiles`:
 ```bash
 git clone https://github.com/Aneeshie/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 ```
 
-### 2. Execute Bootstrap Rebuild
+---
+
+### 4. Execute Bootstrap Rebuild (`nix-darwin`)
+Run the bootstrap script to link your configuration and build the initial `nix-darwin` environment:
 ```bash
 ./rebuild.sh
 ```
+*On the first run, `rebuild.sh` will automatically detect that `darwin-rebuild` is not yet in your `$PATH` and bootstrap `nix-darwin` via `nix run`.*
 
-### 3. Build & Install `nara-cli`
+---
+
+### 5. Build & Install `nara-cli`
+Ensure `~/.local/bin` exists and compile the custom CLI:
 ```bash
+mkdir -p ~/.local/bin
 cd ~/.dotfiles/nara-cli
 go build -o ~/.local/bin/nara main.go
+```
+
+Verify your setup by running:
+```bash
+nara doctor
 ```
 
 ---

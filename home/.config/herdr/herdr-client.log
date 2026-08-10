@@ -1194,3 +1194,6 @@
 2026-07-31T07:54:14.580160Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=56539
 2026-07-31T07:54:14.580224Z  INFO herdr::client: connecting to server path=/Users/nara/.config/herdr/herdr-client.sock
 2026-07-31T07:54:14.663782Z  INFO herdr::client: handshake succeeded version=17 encoding=SemanticFrame
+2026-08-09T06:08:10.870790Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=3682
+2026-08-09T06:08:10.871382Z  INFO herdr::client: connecting to server path=/Users/nara/.config/herdr/herdr-client.sock
+2026-08-09T06:08:10.969414Z  INFO herdr::client: handshake succeeded version=17 encoding=SemanticFrame
