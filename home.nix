@@ -19,6 +19,7 @@ in
     nerd-fonts.iosevka-term
     tmux
     bat
+    aider-chat
   ];
 
   fonts.fontconfig.enable = true;
@@ -138,7 +139,12 @@ in
     config.lib.file.mkOutOfStoreSymlink
     "${dotfiles}/home/.config/aerospace";
 
+  home.file.".aerospace.toml".source =
+    config.lib.file.mkOutOfStoreSymlink
+    "${dotfiles}/home/.config/aerospace/aerospace.toml";
+
   home.file.".config/ghostty".source =
     config.lib.file.mkOutOfStoreSymlink
     "${dotfiles}/home/.config/ghostty";
+
 }

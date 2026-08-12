@@ -66,7 +66,6 @@
       "ghostty"
       "cursor"
       "raycast"
-      #"orbstack" THERES AN ISSUE WITH THIS ON HOMEBREW.
       "spotify"
       "aerospace"
       "discord"
@@ -74,6 +73,7 @@
       #"visual-studio-code"
       "zed"
       "bruno"
+      #"opencode"
     ];
   };
 

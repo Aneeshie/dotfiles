@@ -52,14 +52,15 @@ on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
 automatically-unhide-macos-hidden-apps = false
 
 workspace-to-monitor-force-assignment = {
-  "1" = "VG271U M3",
-  "2" = "VG271U M3",
-  "3" = "VG271U M3",
+  "1" = ["VG271U M3", "main"],
+  "2" = ["VG271U M3", "main"],
+  "3" = ["VG271U M3", "main"],
 
-  "4" = "Built-in Retina Display",
-  "5" = "Built-in Retina Display",
-  "6" = "Built-in Retina Display",
+  "4" = ["Built-in Retina Display", "secondary", "main"],
+  "5" = ["Built-in Retina Display", "secondary", "main"],
+  "6" = ["Built-in Retina Display", "secondary", "main"],
 }
+
 
 
 # List of workspaces that should stay alive even when they contain no windows,
@@ -132,6 +133,10 @@ gaps.outer.right =      8
     # See: https://nikitabobko.github.io/AeroSpace/commands#layout
     alt-slash = 'layout tiles horizontal vertical'
     alt-comma = 'layout accordion horizontal vertical'
+    alt-shift-space = 'layout floating tiling'
+    alt-f = 'fullscreen'
+
+
 
 
     # Custom App Launchers
@@ -170,7 +175,8 @@ gaps.outer.right =      8
     alt-c = 'workspace C'
     # alt-d = 'workspace D'
     alt-e = 'workspace E'
-    alt-f = 'workspace F'
+    # alt-f = 'workspace F'
+
     alt-g = 'workspace G'
     alt-i = 'workspace I'
     alt-m = 'workspace M'
@@ -246,5 +252,10 @@ gaps.outer.right =      8
     alt-shift-l = ['join-with right', 'mode main']
 
 [[on-window-detected]]
-  if.app-id = "com.mitchellh.ghostty"
-  run = "layout floating"
+  if.app-id = 'com.apple.systempreferences'
+  run = 'layout floating'
+
+[[on-window-detected]]
+  if.app-id = 'com.apple.calculator'
+  run = 'layout floating'
+
